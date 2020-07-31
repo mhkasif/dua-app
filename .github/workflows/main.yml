@@ -29,4 +29,4 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: deploy on surge
-      run: surge http://ruthless-veil.surge.sh/ --token {{secrets.SURGE_TOKEN}}
+      run: surge http://ruthless-veil.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
