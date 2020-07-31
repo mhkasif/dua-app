@@ -1,0 +1,113 @@
+body {
+ 
+  font-family: 'Titillium Web', sans-serif;
+  /*background-image: url("/Users/MHK/Desktop/duaapp/images/du.jpg");*/
+    /*background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;*/
+/*background: #070000;  
+background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  
+background: linear-gradient(to right, #070000, #4C0001, #070000);  */background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+position: relative;
+
+}
+
+/*h1{
+    text-align: center;
+    font-size: 5px;
+}*/
+/*input{
+    opacity: 0.3;
+    width: 20%;
+    height: 160%;
+    border: 3px solid black;
+
+}*/
+/*div{
+    text-align: center;
+    height: 100%;
+    width: auto;
+}*/
+
+#nameof{
+    font-size: 25px;
+    color: black;
+}
+#comment{
+    width: 600px ;
+    height: 100px;
+    
+}
+.frm {
+  display: table;
+  margin: 0 auto;
+}
+#bis{
+/*padding-left: 450px;*/
+font-size: 22px;
+ margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+
+}
+
+#duap{
+    color: white;
+    font-size: 28px;
+}
+#duap,#bis:hover{
+    cursor: default;
+
+}
+.msg{
+    white-space: pre-line;
+    font-size: 25px;
+    text-align: left;
+
+    border: 0.1px solid white;
+    border-top-left-radius: 0px; 
+
+    border-top-right-radius:130px ;
+    border-bottom-left-radius: 59px;
+    border-bottom-right-radius:  59px;
+    background-color: white;
+
+    color: black;
+    opacity: 0.6;
+/*padding: 3px;*/
+padding-left:2%; 
+padding-right:4%;
+padding-top:2% ;
+padding-bottom: 2%;
+
+margin-left: 5%; 
+/*box-sizing: 100px;*/
+ max-width: 800px;
+ min-width: 700px;
+    word-wrap: break-word;
+
+}
+#l{
+    font-size: 25px;
+}
+ul{
+    list-style-type:square; 
+}
+#butt{
+    /*width: 15%;*/
+
+    margin-bottom: 4%;
+    margin-left: 30%;
+    padding: 5px;
+
+}
+
