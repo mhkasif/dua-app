@@ -6,6 +6,9 @@ var bod=document.querySelector(".frm");
 var non=document.getElementById("non");
 var k=0;
 
+
+
+
 namee();
 function nameOfPer(){
 
